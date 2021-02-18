@@ -1,7 +1,7 @@
 const numbers = [12, 24];
-numbers[1] = 44; // arrayr vitorer value jodi change kori tobe const er output a probe´lem dekhabe na.
+numbers[1] = 44; // arrayr vitorer value jodi change kori tobe const er output a problem dekhabe na.
 numbers.push(33); // push pop sobi kaj korbe but jodi arekta name er array use kori tobei error..next line a dekho
-//  numbers = ["khalid", "safwaan"];
+numbers[1] = ["khalid", "safwaan"];
 console.log(numbers);
 
 // but jodi amon hoe tobe error dekhabe

@@ -18,7 +18,7 @@ const names = ["khalid", "Rakib", "Mamun", "Raazu", "Babu"];
 // const [bigFriend] = names;
 // console.log(bigFriend);
 const [bigFriend, ...restFriends] = names;
-console.log(restFriends);
+console.log('restFriends : ', restFriends);
 
 // complexObject
 const myFriends = {
@@ -32,3 +32,18 @@ const myFriends = {
 };
 const { leader, school } = myFriends.info;
 console.log(leader, school);
+
+
+const sweden = {
+  city: 'stockholm',
+  population: 123,
+  code: +46,
+  info:{
+    area: ['marsta', 'södertälje'],
+    areaPopulation: 100,
+    lang:  ['svenska', 'engelska'],
+  }
+}
+const {area, lang} = sweden.info;
+console.log(area, lang);
+console.log(sweden.info);

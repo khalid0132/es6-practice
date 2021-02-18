@@ -22,3 +22,13 @@ const uniName1 = new University("Stockholm University", "Sweden", 1910);
 const uniName2 = new University("Jönköping University", "Sweden", 1990);
 const uniName3 = new University("Gävle University", "Sweden", 1980);
 console.log(uniName1, uniName2, uniName3);
+
+class City {
+  constructor(cityId, cityName, cityYear) {
+    this.id = cityId;
+    this.name = cityName;
+    this.year = cityYear;
+  }
+}
+const huddinge = new City(123, "huddinge", "1910");
+console.log(huddinge);

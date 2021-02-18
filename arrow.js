@@ -40,3 +40,22 @@ const doMath = (num1, num2) => {
 };
 const resultMaths = doMath(6, 4);
 console.log(resultMaths); //20
+
+const doMathmatics = (n1, n2) => {
+  const sub = n1 - n2;
+  const sum = n1 + n2;
+  const total = sub * sum;
+  return total;
+};
+const value = doMathmatics(5, 10);
+console.log(value);
+
+// 3 dots
+const saf = [2, 3, 4];
+const safwaan = [...saf, 5];
+console.log(safwaan);
+
+//max number ber kora
+const maxi = [100, 300, 150, 75, 300];
+const maximum = Math.max(...maxi); // 3 dots na dile Nan dekhabe
+console.log(maximum);

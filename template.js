@@ -20,3 +20,12 @@ const multiLine1 = `Khalid
 lives
 in Stockholm`;
 console.log(multiLine1);
+
+const city = "huddinge";
+const stad = "stockholm";
+const stockholm = `${city} ${stad} ${100 + 250} in Sweden`;
+const swed = `khalid 
+lives
+in sweden`; // multiline
+console.log(stockholm);
+console.log(swed);
